@@ -14,7 +14,6 @@ int main()
 
 	PayRoll employees[Number_Employees];
 
-
 	cout << "\n \nWelcome to PayRoll Calculator \n \nCalculate gross pay by entering the hours worked by " << Number_Employees;
 	cout << " employees and their hourly rates. \n \n";
 	for (count = 0; count < Number_Employees; count++)

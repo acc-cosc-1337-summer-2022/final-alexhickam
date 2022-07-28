@@ -9,15 +9,12 @@ bool test_config()
 
 using std::cout; using std::cin; using namespace std;
 
-
-
 void PayRoll::set_hours(double h)
 {
 	if (h < 0)
 	{
 		cout << "\n\n*********************\n\nInvalid value for hours. \nRestart program and do not use negative values.\n\n*********************\n\n";
 		exit(EXIT_FAILURE);
-
 	}
 	else
 		hours = h;
@@ -33,9 +30,3 @@ void PayRoll::set_pay_rate(double r)
 	else
 		rate = r;
 };
-
-double PayRoll :: set_gross_pay()
-{
-	double total_pay= hours * rate;
-	return total_pay;
-}

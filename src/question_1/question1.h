@@ -17,8 +17,6 @@ public:
 	void set_hours(double);
 
 	void set_pay_rate(double);
-
-	double set_gross_pay();
 	
 	double get_hours() const
 	{
@@ -32,8 +30,6 @@ public:
 	{
 		return hours * rate;
 	}
-
-
 
 private:
 
